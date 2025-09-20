@@ -1,0 +1,14 @@
+{
+  "name": "testdata_ts",
+  "version": "0.0.1",
+  "description": "Fixture generation using types published in the LSP spec",
+  "repository": "github.com/heymatthew/yautja-lsp",
+  "author": "Matthew",
+  "license": "MIT",
+  "scripts": {
+    "create_fixtures": "ts-node index.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
