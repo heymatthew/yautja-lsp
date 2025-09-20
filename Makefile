@@ -6,5 +6,6 @@ install:
 
 fixtures:
 	rm testdata/**/*.json || true
+	cd testdata_ts && yarn install
 	cd testdata_ts && yarn create_fixtures
 	tree --gitignore testdata
